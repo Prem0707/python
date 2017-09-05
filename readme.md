@@ -13,3 +13,6 @@ http://zmrenwu.com/post/3/
 
 
 https://andrew-liu.gitbooks.io/django-blog/content/xiang_mu_yu_app.html
+
+
+https://segmentfault.com/a/1190000009172280
