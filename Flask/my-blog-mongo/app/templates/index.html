@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset=utf-8>
+  <title>首页</title>
+  <style media="screen">
+    html, body {
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      padding-top: 30px;
+    }
+    table {
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <form class="input-group" action="/add" method="post">
+      <input class="form-control" id="content" name="content" type="text" value="">
+      <span class="input-group-btn">
+           <button class="btn btn-primary" type="submit">Add</button>
+      </span>
+  </form>
+  <table class="table">
+      <thead>
+          <tr>
+               <td>Content</td>
+               <td>Time</td>
+               <td>Status</td>
+         </tr>
+      </thead>
+      <tbody>
+      {% for t in todos %}
+          <tr>
+              <td>{{ t.content }}</td>
+              <td>{{ t.time }}</td>
+              <td>
+              {% if t.status == 0 %}
+               <a href="/done/{{ t.id }}">Done</a>
+              {% else %}
+               <a href="/undone/{{ t.id }}">Undone</a>
+              {% endif %}
+              </td>
+              <td>
+                 <a href="/delete/{{ t.id }}">Delete</a>
+              </td>
+         </tr>
+      {% endfor %}
+      </tbody>
+  </table>
+
+
+</body>
+</html>
