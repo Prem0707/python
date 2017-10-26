@@ -1,13 +1,23 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{ title }}</title>
-</head>
-<body>
-    <h1>{{ welcome }}</h1>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block main %}
+    {% for post in post_list %}
+        <article class="post post-1">
+            <header class="entry-header">
+                <h1 class="entry-title">
+                  <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+                </h1>
+                <p class="muted">
+                    {{ post.excerpt }}
+                </p>
+            </header>
+
+            <div class="read-more cl-effect-14">
+              <a href="{{ post.get_absolute_url }}" class="btn ">继续阅读 <span class="meta-nav">→</span></a>
+            </div>
+
+        </article>
+    {% empty %}
+        <div class="no-post">暂时还没有发布的文章！</div>
+    {% endfor %}
+{% endblock main %}

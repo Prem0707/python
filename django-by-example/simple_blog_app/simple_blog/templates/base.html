@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+
+            <main class="span8">
+                <br />
+                <br />
+                {% block main %}
+                {% endblock main %}
+            </main>
+            <aside class="span4">
+                <br />
+                <br />
+                <p>
+                    分类：
+                </p>
+                {% for category in category_list %}
+                    	<span class="badge badge-success">{{category.name}}</span>
+                {% empty %}
+                    <div class="no-post">暂时还没有发布的标签！</div>
+                {% endfor %}
+                <br />
+                <br />
+                <br />
+                <p>
+                    标签：
+                </p>
+                {% for tag in tag_list %}
+                    <span class="badge badge-info">{{tag.name}}</span>
+                {% empty %}
+                    <div class="no-post">暂时还没有发布的文章！</div>
+                {% endfor %}
+            </aside>
+        </div>
+    </div>
+</body>
+<script src="/static/js/jquery-3.2.1.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+
+</html>

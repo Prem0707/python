@@ -1,5 +1,8 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.urls import reverse
+from django.utils.six import python_2_unicode_compatible
+
 
 class Category(models.Model):
     name = models.CharField('分类', max_length=100)
@@ -20,3 +23,15 @@ class Post(models.Model):
     category = models.ForeignKey(Category)
     tags = models.ManyToManyField(Tag, blank=True)
     author = models.ForeignKey(User)
+    views = models.PositiveIntegerField(default=0)
+
+    def __str__(self):
+        return self.title
+
+    def get_absolute_url(self):
+        # 'blog:detail': blog 应用下的 name=detail 的函数
+        return reverse('blog:detail', kwargs={'pk': self.pk})
+
+    def increase_views(self):
+        self.views += 1
+        self.save(update_fields=['views'])
