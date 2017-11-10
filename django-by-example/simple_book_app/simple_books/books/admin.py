@@ -4,6 +4,7 @@ from django.contrib import admin
 from . import models
 
 class Bookadmin(admin.ModelAdmin):
+    short_description = '书籍'
     list_display = ('id', 'name', 'publisher', 'publisher_date', 'publisher_state')
     search_fields = ('name',)
     list_filter = ('publisher', 'publisher_date',)
