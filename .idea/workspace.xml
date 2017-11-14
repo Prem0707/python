@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2e4249a-95b6-4153-ac2c-191bb7710101" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/auth_app/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/auth_app/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/auth_app/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/auth_app/wsgi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/db.sqlite3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/static/css/bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/static/css/bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/static/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/static/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/static/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/static/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/static/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/static/js/jquery-3.2.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/templates/registration/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/templates/registration/password_change_done.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/templates/registration/password_change_form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/templates/registration/password_reset_form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/templates/users/register.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/users/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/users/admin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/users/apps.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/users/forms.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/users/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/users/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/users/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/users/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/users/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/users/views.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-by-example/simple_book_app/simple_books/db.sqlite3" afterPath="$PROJECT_DIR$/django-by-example/simple_book_app/simple_books/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-by-example/simple_book_app/simple_books/books/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/django-by-example/simple_book_app/simple_books/books/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django-by-example/simple_book_app/simple_books/simple_books/settings.py" afterPath="$PROJECT_DIR$/django-by-example/simple_book_app/simple_books/simple_books/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,21 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reuqirement.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/django-by-example/simple_auth_app/simple_app/reuqirement.txt">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django-by-example/simple_auth_app/simple_app/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="63">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/django-by-example/simple_auth_app/simple_app/requirements.txt">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/django-by-example/simple_auth_app/readme.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -180,13 +147,14 @@
         <option value="$PROJECT_DIR$/django-by-example/simple_auth_app/simple_app/simple_app/settings.py" />
         <option value="$PROJECT_DIR$/django-by-example/simple_auth_app/simple_app/account/suth.py" />
         <option value="$PROJECT_DIR$/django-by-example/simple_auth_app/simple_app/account/permission.py" />
+        <option value="$PROJECT_DIR$/django-by-example/simple_auth_app/readme.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="443" />
-    <option name="y" value="20" />
-    <option name="width" value="1590" />
+    <option name="x" value="733" />
+    <option name="y" value="67" />
+    <option name="width" value="1207" />
     <option name="height" value="919" />
   </component>
   <component name="ProjectView">
@@ -349,16 +317,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="443" y="20" width="1590" height="919" extended-state="0" />
+    <frame x="733" y="67" width="1207" height="919" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2006536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26765475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20764332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40764332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -399,7 +368,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/django-by-example/simple_book_app/simple_books/users/models.py" />
     <entry file="file://$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/users/models.py" />
     <entry file="file://$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/users/admin.py" />
     <entry file="file://$PROJECT_DIR$/django-by-example/simple_auth_app/auth_app/users/apps.py" />
@@ -582,8 +550,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/django-by-example/simple_auth_app/simple_app/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django-by-example/simple_auth_app/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
           <folding />
         </state>
       </provider>
